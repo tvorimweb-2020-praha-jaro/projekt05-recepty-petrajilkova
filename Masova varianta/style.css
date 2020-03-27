@@ -21,6 +21,7 @@ notebook/pc:
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 .paticka {
@@ -37,4 +38,87 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+.flexkontejner{
+    display: flex;
+    flex-direction: column;
+}
+
+.hlavni-recept {
+    display: flex;
+    min-height: 200px;
+    background-image: url(images/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    flex-grow: 1;
+    }
+
+    .recept2 {
+        display: flex;
+        min-height: 200px;
+        background-image: url(images/sushi.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        flex-grow: 1; 
+    }
+
+    .recept3 {
+        display: flex;
+        min-height: 200px;
+        background-image: url(images/kure.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        flex-grow: 1; 
+    }
+
+    .recept4 {
+        display: flex;
+        min-height: 200px;
+        background-image: url(images/rajcata.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        flex-grow: 1; 
+    }
+    .recept5 {
+        display: flex;
+        min-height: 200px;
+        background-image: url(images/grilovani.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        flex-grow: 1; 
+    }
+
+    .recept-nazev-1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        align-self: flex-start;
+    }
+
+    .recept-komentare .recept-kategorie {
+            font-weight: 400;
+            font-size: 14px;
+            font-family: "Source Sans Pro";
+            margin: 0em;
+         }
+
 
