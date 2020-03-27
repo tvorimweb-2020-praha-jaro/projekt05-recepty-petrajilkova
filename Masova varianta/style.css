@@ -48,7 +48,7 @@ body {
     min-height: 200px;
     background-image: url(images/burger.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -61,7 +61,7 @@ body {
         min-height: 200px;
         background-image: url(images/sushi.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
@@ -74,7 +74,7 @@ body {
         min-height: 200px;
         background-image: url(images/kure.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
@@ -87,7 +87,7 @@ body {
         min-height: 200px;
         background-image: url(images/rajcata.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
@@ -99,7 +99,7 @@ body {
         min-height: 200px;
         background-image: url(images/grilovani.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
@@ -120,5 +120,12 @@ body {
             font-family: "Source Sans Pro";
             margin: 0em;
          }
+
+    .recept-meta {
+        display:flex;
+        width: 100%;
+        justify-content:space-between;  
+        margin: 0em;
+    }
 
 
