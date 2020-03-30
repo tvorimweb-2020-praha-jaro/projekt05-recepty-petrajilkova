@@ -58,7 +58,7 @@ body {
 
     .recept2 {
         display: flex;
-        min-height: 200px;
+        min-height: 90px;
         background-image: url(images/sushi.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -71,7 +71,7 @@ body {
 
     .recept3 {
         display: flex;
-        min-height: 200px;
+        min-height: 90px;
         background-image: url(images/kure.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -84,7 +84,7 @@ body {
 
     .recept4 {
         display: flex;
-        min-height: 200px;
+        min-height: 90px;
         background-image: url(images/rajcata.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -96,7 +96,7 @@ body {
     }
     .recept5 {
         display: flex;
-        min-height: 200px;
+        min-height: 90px;
         background-image: url(images/grilovani.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -114,6 +114,13 @@ body {
         align-self: flex-start;
     }
 
+    .recept-nazev {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        align-self: flex-start;
+    }
+
     .recept-komentare .recept-kategorie {
             font-weight: 400;
             font-size: 14px;
@@ -128,4 +135,65 @@ body {
         margin: 0em;
     }
 
+    @media (min-width: 480px) {
+        .hlavni-recept{
+           min-height: 250px; 
+        }
 
+        .recept2, .recept3, .recept4, .recept5{
+            min-width: 50%;
+            min-height: 150px;
+            padding: 20px;
+        }
+     
+         .recepty {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+         }
+        
+         .recept-nazev-1 {
+            font-size: 36px;
+        }
+
+        .recept-nazev {
+            font-size: 22px;
+        }
+    } 
+
+
+
+    @media (min-width: 860px) {
+        .doporucujeme {
+            flex-direction: row;
+         }
+
+         .recepty {
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            justify-content: space-between;
+            min-width: 33%;
+            min-height: 400px;
+            }
+
+
+    .recept2, .recept3, .recept4, .recept5{
+        min-width: 50%;
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .recepty {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+
+    .recept-nazev-1 {
+        font-size: 28px;
+    }
+    .recept-nazev {
+        font-size: 28px;
+    }
+}
